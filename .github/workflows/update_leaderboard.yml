@@ -29,4 +29,5 @@ jobs:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           JSONBIN_API_KEY: ${{ secrets.JSONBIN_API_KEY }}
           JSONBIN_BIN_ID: ${{ secrets.JSONBIN_BIN_ID }}
+          IS_RESET: "false"
         run: python leaderboard.py
